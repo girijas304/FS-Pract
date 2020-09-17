@@ -1,1 +1,13 @@
+echo "# FS-Pract" >> README.md
 git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+
+git config --global user.name "girijas304" 
+
+git config --global user.email "girijac97@gmail.com"
+
+git remote add origin https://github.com/girijas304/FS-Pract.git
+
+git push -u origin master
